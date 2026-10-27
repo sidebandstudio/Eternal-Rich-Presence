@@ -532,7 +532,7 @@ def run_setup_gui() -> bool:
 
     footer = tk.Label(
         bottom,
-        text="github.com/whoisaldo/Eternal-Rich-Presence",
+        text="github.com/sidebandstudio/Eternal-Rich-Presence",
         font=small_font,
         fg=_FG_DIM,
         bg=_BG,

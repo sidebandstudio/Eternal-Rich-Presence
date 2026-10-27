@@ -827,7 +827,7 @@ def run_host_mode() -> int:
                 "Apple Music and Spotify — with live\n"
                 "cover art and Listen Along.\n\n"
                 "Official repo:\n"
-                "github.com/whoisaldo/Eternal-Rich-Presence\n\n"
+                "github.com/sidebandstudio/Eternal-Rich-Presence\n\n"
                 f"Contact: {APP_SUPPORT_EMAIL}\n\n"
                 "© 2026 Ali Younes — licensed under GPL-3.0-or-later.",
                 f"About {APP_NAME}",
@@ -1013,7 +1013,7 @@ _BANNER = r"""
  |_| \_\_|\___|_| |_| |_|   |_|  \___||___/\___|_| |_|\___\___|
 
        by Ali Younes (@whoisaldo)
-       https://github.com/whoisaldo/Eternal-Rich-Presence
+       https://github.com/sidebandstudio/Eternal-Rich-Presence
 """
 
 

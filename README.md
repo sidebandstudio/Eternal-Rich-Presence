@@ -1,6 +1,6 @@
 # EternalRichPresence
 
-[![CI](https://github.com/whoisaldo/Eternal-Rich-Presence/actions/workflows/ci.yml/badge.svg)](https://github.com/whoisaldo/Eternal-Rich-Presence/actions/workflows/ci.yml)
+[![CI](https://github.com/sidebandstudio/Eternal-Rich-Presence/actions/workflows/ci.yml/badge.svg)](https://github.com/sidebandstudio/Eternal-Rich-Presence/actions/workflows/ci.yml)
 [![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue)](LICENSE)
 
 **The official Discord Rich Presence bridge for Apple Music and Spotify, by Ali Younes ([@whoisaldo](https://github.com/whoisaldo)).**
@@ -11,7 +11,7 @@ EternalRichPresence is a lightweight Windows tray app that shows your current so
 
 ## Quick Start (prebuilt)
 
-Download the latest `EternalRichPresence.exe` from the [official repository](https://github.com/whoisaldo/Eternal-Rich-Presence).
+Download the latest `EternalRichPresence.exe` from the [official repository](https://github.com/sidebandstudio/Eternal-Rich-Presence).
 
 1. Launch the exe.
 2. The app is already configured for Discord.
@@ -45,10 +45,10 @@ Two settings control what leaves your machine — both editable in the setup win
 
 ## Setup (from source)
 
-Clone from the [official repository](https://github.com/whoisaldo/Eternal-Rich-Presence):
+Clone from the [official repository](https://github.com/sidebandstudio/Eternal-Rich-Presence):
 
 ```bash
-git clone https://github.com/whoisaldo/Eternal-Rich-Presence.git
+git clone https://github.com/sidebandstudio/Eternal-Rich-Presence.git
 cd Eternal-Rich-Presence
 pip install -r requirements.txt
 python main.py
