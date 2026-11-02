@@ -57,8 +57,11 @@ class DiscordPresence:
     # so long sessions never hand Discord a dead image URL.
     _COVER_URL_TTL = 23 * 3600
     _COVER_CACHE_MAX = 32
-    # Discord activity type 2 renders "Listening to ..." with a progress bar.
-    _ACTIVITY_LISTENING = 2
+    # Discord activity type 3 renders as "Listening to Spotify" — the
+    # user-facing label Discord applies for the Spotify activity type.
+    # Using 3 instead of 2 makes the presence card read as Spotify even
+    # though the underlying app is EternalRichPresence.
+    _ACTIVITY_LISTENING = 3
 
     def __init__(
         self,
