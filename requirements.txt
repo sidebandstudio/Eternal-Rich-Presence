@@ -6,7 +6,7 @@
 # (Windows SMTC) and Spotify work without it, but it ships in every Windows
 # install so the COM path works out of the box.
 pywin32>=306; sys_platform == "win32"
-pypresence>=4.2.0
+pypresence>=4.5.0
 spotipy>=2.23.0
 pystray>=0.19.5
 Pillow>=10.0.0

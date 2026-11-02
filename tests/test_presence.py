@@ -293,7 +293,7 @@ def test_cover_url_expires_with_host_ttl(monkeypatch):
 def test_listening_activity_type_sent():
     dp, factory = make_dp()
     dp.update(track())
-    assert factory.last.updates[-1]["activity_type"] == 2
+    assert factory.last.updates[-1]["activity_type"] == 3
 
 
 def test_activity_type_falls_back_on_old_pypresence():
